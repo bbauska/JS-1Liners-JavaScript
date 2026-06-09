@@ -151,10 +151,10 @@ pre > code {
   word-wrap: normal;
 }
 pre {
-  font:normal normal 10px/12px consolas,Courier,Monospace;
+  font: normal normal 10px/12px consolas,Courier,Monospace;
   background-color: #eee;  /* very light gray */
   overflow: auto;
-  margin: 0 0 0 3em;  /* 0 0 1em */
+  margin: 0 0 0 2em;  /* 0 0 1em */
   padding: .5em 1em;
   white-space: pre-wraps;
   overflow-x: auto;
@@ -162,21 +162,21 @@ pre {
 }
 pre code,
 pre .line-number {
-  font:normal normal 10px/12px consolas,Courier,Monospace;
-  color:black;
-  display:block;
+  font: normal normal 10px/12px consolas,Courier,Monospace;
+  color: black;
+  display: block;
 }
 pre .line-number {
-  font:normal normal 10px/12px consolas,Courier,Monospace;
-  float:left;
-  margin:0 1em 0 -1em;
-  border-right:1px solid;
-  text-align:right;
+  font: normal normal 10px/12px consolas,Courier,Monospace;
+  float: left;
+  margin: 0 1em 0 -1em;
+  border-right: 1px solid;
+  text-align: right;
   color: red;
 }
 pre .line-number span {
-  display:block;
-  padding:0 .5em 0 1em;
+  display: block;
+  padding: 0 .5em 0 1em;
 }
 pre .cl {
   display:block;
@@ -184,6 +184,7 @@ pre .cl {
 }
 pre {
   overflow: auto;
+  white-space: pre-wrap;  /* Wraps long lines automatically while preserving formatting */
 }
 pre[href]:hover  {
   text-decoration: none;
