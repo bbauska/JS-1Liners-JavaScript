@@ -183,8 +183,8 @@ pre .cl {
   clear:both;
 }
 pre {
-  overflow: auto;
-  white-space: pre-wrap;  /* Wraps long lines automatically while preserving formatting */
+  overflow-x: auto;  /* Enables horizontal scroll */
+  white-space: pre;  /* Prevents wrapping and preserves spacing */
 }
 pre[href]:hover  {
   text-decoration: none;
